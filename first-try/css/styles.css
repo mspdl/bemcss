@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+.card {
+  padding: 2rem;
+  margin: 2rem;
+  max-width: 400px;
+  box-shadow: -1px 1px 16px 0px rgb(102, 94, 102);
+}
+.card__image {
+  max-width: 100%;
+}
+.card__title {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.card__body {
+  margin-bottom: 0.8rem;
+}
+.card--light {
+  background-color: #eeedef;
+}
+.card--dark {
+  background-color: #343334;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */
